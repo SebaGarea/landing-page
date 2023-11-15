@@ -36,63 +36,130 @@ section{
     background-color:white;
     color: #1f2937;
     /* border: solid 3px red; */
-    height: 300px;
+    height: 350px;
 }
 
 .titulo{
     /* border: 1px solid blue; */
     text-align: center;
    padding-top: 20px;
+   font-weight:bolder;
 }
 
 .section1{
     display: flex;
-    justify-content: center;
-    
+    /* justify-content: center;
+    width: 1920px; */
 }
 
 .caja{
-    padding:50px;
+    display: flex;
+    justify-content: space-around;
+    padding:70px 20px;
     margin: 25px;
-    border: #1f2937 1px solid;
+    border:#3882f6 5px solid;
     border-radius: 16px;
     display: flex;
     color:#1f2937;
+
+}
+.slot{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.slot p{
+    text-align: center;
+    margin: 2px 25px;
+}
+
+.primer{
+    background-color: #1f2937; 
+    height: 390px;
 }
 
 .section2{
+   
     border: 1px solid;
     display: flex;
     justify-content: space-evenly;
+   
 }
 
 .izquierda{
     display: flex;
     flex-direction: column;
-   
-    
-     width: 300PX;
+    width: 380PX;
     height: 300px;
 }
 
-.texto{
+.texto {
     display: flex;
     justify-content: center;
+    margin-top: 70px;
     text-align: center;
+    color: #f9faf8;
+    font-size: 15px;
+    
+}
+
+.texto h1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.subtexto{
+    color: white;
+    /* text-align: center; */
+    margin-top: 8px;
 }
 
 .buttom{
+   background-color: #3882f6;
+    color: white;
     display: flex;
-    align-self: center;
-    margin-top: 160px;
+    justify-content: center;
+    margin: 8px 0px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70px;
 
 }
 
 .imagen{
+    background-color: #1f2937; 
     display: flex;
-    background-color: darkcyan;
+    background-color: grey;
+    margin: 70px;
     justify-content: center;
     align-items:center ;
-    width: 300PX;
-    height: 300px;
+    width: 370PX;
+    
+}
+
+.section3{  
+    display: flex;
+    margin-top: 25px;
+    background-color: #e5e7eb;
+    text-align: center;
+    justify-content: center;
+}
+.frase-filosofica{
+    text-align: center;
+    font-size: 30px;
+}
+
+p.autor{
+    align-self: flex-end;
+    margin-right: 25px;
+    font-weight: bold;
+    
+
+}
+
+.div-alineacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
